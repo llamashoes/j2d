@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Jehovah 2 Dave",
+	"version": "0.0.1",
+	"description": "Replaces the text 'jehova' with 'dave'.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
